@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #DE3C4B;
+}
+.infor{
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    border-radius: 10pc;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background: #303036;
+    box-shadow: 5px 15px 15px #8093F1;
+    
+}
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 550px;
+}
+.caixas{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #303036;
+    box-shadow: 5px 15px 15px #8093F1;
+    border-radius: 7px;
+    letter-spacing: 5px;
+}
+span{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+span.marca{
+    font-size: 10px;
+}
